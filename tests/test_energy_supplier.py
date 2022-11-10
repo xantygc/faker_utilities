@@ -12,9 +12,9 @@ class TestEnergySupplierES(unittest.TestCase):
         self.fake.add_provider(PowerEnergySupplierES)
 
     def test_type_c(self):
-        cups = self.fake.code("C")
+        cups = self.fake.power_code("C")
         self.assertEqual("C", cups[-1], "not the same type of cups")
 
     def test_none(self):
-        cups = self.fake.code()
+        cups = self.fake.power_code()
         self.assertEqual(20, len(cups), "not the same length")
