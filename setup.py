@@ -39,6 +39,7 @@ setup(
     author='Santiago González',
     author_email='santiago.gonzalez.courel@gmail.com',
     url='https://github.com/xantygc/faker_utilities',
+    long_description=README,
     packages=find_packages('energy_supplier'),
     package_dir={'': 'energy_supplier'},
     py_modules=[splitext(basename(path))[0] for path in glob('energy_supplier/*.py')],
