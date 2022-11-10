@@ -47,8 +47,7 @@ setup(
     zip_safe=False,
     classifiers=CLASSIFIERS,
     project_urls={
-        'Changelog': 'CHANGELOG.rst',
-        'Issue Tracker': 'https://github.com/xantygc/faker_utilities/issues',
+        'Bug Tracker': 'https://github.com/xantygc/faker_utilities/issues',
     },
     python_requires='>=3.6',
     install_requires=['Faker>=8.2.1']
