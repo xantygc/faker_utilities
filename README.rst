@@ -1,1 +1,2 @@
 Faker Utilities
+|license|
