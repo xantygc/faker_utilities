@@ -4,7 +4,18 @@ Faker Utilities Gas & Power
 
 |PyPI Package| |PyPI Python Versions|
 
+Basic Usage
+-----------
 
+Install with pip:
+
+.. code:: bash
+
+    pip install Faker
+
+    Use ``faker.Faker()`` to create and initialize a faker
+    generator, which can generate data by accessing properties named after
+    the type of data you want.
 
 
 
