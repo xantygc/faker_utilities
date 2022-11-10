@@ -20,15 +20,6 @@ Install with pip:
 
 
 
-
-
-
-
-
-
-
-
-
 .. |PyPI Package| image:: https://img.shields.io/pypi/v/faker-utilities.svg?style=flat
    :target: https://pypi.org/project/faker-utilities/
    :alt: PyPI Package Latest Release
