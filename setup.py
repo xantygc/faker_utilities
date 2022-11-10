@@ -16,8 +16,8 @@ except:
 
 CLASSIFIERS = [
     # complete classifier list: http://pypi.python.org/pypi?%3Aaction=list_classifiers
-    'Development Status :: First Beta',
-    'Intended Audience :: 4 - Beta',
+    'Development Status :: 4 - Beta',
+    'Intended Audience :: Developers',
     'License :: MIT',
     'Operating System :: Unix',
     'Operating System :: POSIX',
