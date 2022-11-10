@@ -5,12 +5,13 @@ from faker.providers import BaseProvider, ElementsType
 
 localized = True
 
+
 class EnergySupplier(BaseProvider):
 
 	distributor: ElementsType[str] = ()
 	country_code = "PT"
 
-	def code(self):
+	def power_code(self):
 		"""
 		Returs a random code based on CUPS or EIC
 		"""

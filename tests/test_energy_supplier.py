@@ -1,5 +1,6 @@
 import unittest
 from energy_supplier.es_ES import PowerEnergySupplier as PowerEnergySupplierES
+from energy_supplier.es_ES import GasEnergySupplier as GasEnergySupplierES
 from faker import Faker
 
 
@@ -7,6 +8,7 @@ class TestEnergySupplierES(unittest.TestCase):
 
     def setUp(self):
         self.fake = Faker()
+        self.fake.add_provider(PowerEnergySupplierES)
         self.fake.add_provider(PowerEnergySupplierES)
 
     def test_type_c(self):

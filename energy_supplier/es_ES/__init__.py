@@ -29,7 +29,7 @@ class PowerEnergySupplier(BaseEnergySupplier):
 
     country_code = "ES"
 
-    def code(self, point_type=None):
+    def power_code(self, point_type=None):
         """Returns a random code based on CUPS https://es.wikipedia.org/wiki/C%C3%B3digo_Unificado_de_Punto_de_Suministro"""
 
         cups16 = self.distributor[random.randrange(0, len(self.distributor) - 1)] + str(self.numerify("############"))
@@ -73,7 +73,7 @@ class GasEnergySupplier(BaseEnergySupplier):
 
     country_code = "ES"
 
-    def code(self, point_type=None):
+    def gas_code(self, point_type=None):
         """Returns a random code based on CUPS https://es.wikipedia.org/wiki/C%C3%B3digo_Unificado_de_Punto_de_Suministro"""
 
         cups16 = self.distributor[random.randrange(0, len(self.distributor) - 1)] + str(self.numerify("############"))
