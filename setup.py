@@ -17,7 +17,7 @@ except:
 CLASSIFIERS = [
     # complete classifier list: http://pypi.python.org/pypi?%3Aaction=list_classifiers
     'Development Status :: First Beta',
-    'Intended Audience :: Energy Sector Developers',
+    'Intended Audience :: 4 - Beta',
     'License :: MIT',
     'Operating System :: Unix',
     'Operating System :: POSIX',
@@ -33,16 +33,15 @@ CLASSIFIERS = [
 
 setup(
     name='faker_utilities',
-    version='0.4',
+    version='0.1',
     license='MIT',
     description='Provider of energy & utilities topics data for Faker module',
-    long_description=README,
     author='Santiago González',
     author_email='santiago.gonzalez.courel@gmail.com',
     url='https://github.com/xantygc/faker_utilities',
-    packages=find_packages('faker_utilities'),
-    package_dir={'': 'faker_utilities'},
-    py_modules=[splitext(basename(path))[0] for path in glob('faker_utilities/*.py')],
+    packages=find_packages('energy_supplier'),
+    package_dir={'': 'energy_supplier'},
+    py_modules=[splitext(basename(path))[0] for path in glob('energy_supplier/*.py')],
     include_package_data=True,
     zip_safe=False,
     classifiers=CLASSIFIERS,
@@ -51,6 +50,5 @@ setup(
         'Issue Tracker': 'https://github.com/xantygc/faker_utilities',
     },
     python_requires='>=3.6',
-    install_requires=['Faker>=8.2.1'],
-    test_requires=['pytest>=6.2', 'pytest-cov>=2.12.0'],
+    install_requires=['Faker>=8.2.1']
 )
