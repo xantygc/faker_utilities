@@ -16,9 +16,9 @@ except:
 
 CLASSIFIERS = [
     # complete classifier list: http://pypi.python.org/pypi?%3Aaction=list_classifiers
-    'Development Status :: First Beta',
-    'Intended Audience :: 4 - Beta',
-    'License :: MIT',
+    'Development Status :: 4 - Beta',
+    'Intended Audience :: Developers',
+    'License :: OSI Approved :: MIT License',
     'Operating System :: Unix',
     'Operating System :: POSIX',
     'Operating System :: Microsoft :: Windows',
@@ -39,6 +39,7 @@ setup(
     author='Santiago González',
     author_email='santiago.gonzalez.courel@gmail.com',
     url='https://github.com/xantygc/faker_utilities',
+    long_description=README,
     packages=find_packages('energy_supplier'),
     package_dir={'': 'energy_supplier'},
     py_modules=[splitext(basename(path))[0] for path in glob('energy_supplier/*.py')],
@@ -46,8 +47,7 @@ setup(
     zip_safe=False,
     classifiers=CLASSIFIERS,
     project_urls={
-        'Changelog': 'CHANGELOG.rst',
-        'Issue Tracker': 'https://github.com/xantygc/faker_utilities',
+        'Bug Tracker': 'https://github.com/xantygc/faker_utilities/issues',
     },
     python_requires='>=3.6',
     install_requires=['Faker>=8.2.1']
