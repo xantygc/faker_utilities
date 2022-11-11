@@ -12,10 +12,9 @@ Install with pip:
 .. code:: bash
 
     pip install faker_utilities
-
-    Use ``faker.Faker()`` to create and initialize a faker generator, 
-    which can generate data by accessing properties named after the type of data you want.
-    
+    faker = Faker()
+    fake.add_provider(Fare)
+    fare = fake.power()
   
    
 .. |Last Commit| image:: https://img.shields.io/github/last-commit/xantygc/faker_utilities
