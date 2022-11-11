@@ -12,7 +12,7 @@ Install with pip:
 .. code:: bash
 
     pip install faker_utilities
-    
+
 Generate a MEASURE range between dates:
 
 .. code:: python
@@ -28,12 +28,11 @@ Spanish Power FARE:
     faker = Faker()
     fake.add_provider(Fare)
     fare = fake.power()
-  
-   
+    
 .. |Last Commit| image:: https://img.shields.io/github/last-commit/xantygc/faker_utilities
    :target: https://pypi.org/project/faker-wifi-essid/
    :alt: PyPI Package Python Versions
-   
+
 .. |PyPI Python Versions| image:: https://img.shields.io/pypi/pyversions/faker-utilities.svg?logo=python&style=flat
    :target: https://pypi.org/project/faker-wifi-essid/
    :alt: PyPI Package Python Versions
