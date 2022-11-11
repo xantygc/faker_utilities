@@ -14,5 +14,5 @@ class TestMeasure(TestCase):
         self.assertEqual(24, len(range))
 
     def test_range_spain(self):
-        range = self.fake.range(start=datetime.datetime(2022, 10, 30, 0, 0), end=datetime.datetime(2022, 10, 30, 23, 0), tz='Europe/Madrid')
+        range = self.fake.range(start=datetime.datetime(2022, 10, 30, 0, 0), end=datetime.datetime(2022, 10, 30, 23, 0), tz='Europe/Madrid', min=100, max=50, decimals=6)
         self.assertEqual(25, len(range))
