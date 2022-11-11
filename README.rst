@@ -12,6 +12,19 @@ Install with pip:
 .. code:: bash
 
     pip install faker_utilities
+    
+Generate a MEASURE range between dates:
+
+.. code:: python
+
+    self.fake = Faker()
+    self.fake.add_provider(BaseMeasureProvider)
+    fake.range(start=datetime.datetime(2022, 10, 30, 0, 0), end=datetime.datetime(2022, 10, 30, 23, 0), tz='Europe/Madrid', period='15min', min=100, max=50, decimals=6)
+
+Spanish Power FARE:
+
+.. code:: python
+
     faker = Faker()
     fake.add_provider(Fare)
     fare = fake.power()
