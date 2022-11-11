@@ -1,6 +1,6 @@
-============================
-Faker Utilities Gas & Power
-============================
+=====================================
+Faker Addon for Gas & Power Utilities
+=====================================
 
 |PyPI Package| |PyPI Python Versions| |Last Commit|
 
