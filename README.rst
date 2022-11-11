@@ -28,8 +28,7 @@ Spanish Power FARE:
     faker = Faker()
     fake.add_provider(Fare)
     fare = fake.power()
-
-
+    
 .. |Last Commit| image:: https://img.shields.io/github/last-commit/xantygc/faker_utilities
    :target: https://pypi.org/project/faker-wifi-essid/
    :alt: PyPI Package Python Versions
