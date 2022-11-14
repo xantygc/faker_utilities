@@ -6,7 +6,7 @@ from faker.providers import BaseProvider, ElementsType
 localized = True
 
 
-class BaseEnergySupplier(BaseProvider):
+class BaseEnergySupplierProvider(BaseProvider):
     control_letters: ElementsType[str] = (
         "T", "R", "W", "A", "G", "M", "Y", "F", "P", "D", "X", "B", "N", "J", "Z", "S", "Q", "V", "H", "L", "C", "K", "E")
 

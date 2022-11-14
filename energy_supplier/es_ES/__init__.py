@@ -4,13 +4,13 @@ import random
 from random import choice
 from re import match
 
-from energy_supplier import BaseEnergySupplier
+from energy_supplier import BaseEnergySupplierProvider
 from faker.providers import ElementsType
 
 localized = True
 
 
-class PowerEnergySupplier(BaseEnergySupplier):
+class PowerEnergySupplierProvider(BaseEnergySupplierProvider):
     distributor: ElementsType[str] = \
         (
             "0023",
@@ -37,7 +37,7 @@ class PowerEnergySupplier(BaseEnergySupplier):
         return self.evaluate_type(point_type, self.country_code, cups16, control)
 
 
-class GasEnergySupplier(BaseEnergySupplier):
+class GasEnergySupplierProvider(BaseEnergySupplierProvider):
     distributor: ElementsType[str] = \
         (
             "0201",
