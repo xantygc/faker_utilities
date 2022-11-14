@@ -1,6 +1,6 @@
 from unittest import TestCase
 from faker import Faker
-from fare.es_ES import Fare
+from fare.es_ES import FareProvider
 
 
 class TestFare(TestCase):
@@ -32,7 +32,7 @@ class TestFare(TestCase):
 
     def setUp(self):
         self.fake = Faker()
-        self.fake.add_provider(Fare)
+        self.fake.add_provider(FareProvider)
 
     def test_power(self):
         fare = self.fake.power();

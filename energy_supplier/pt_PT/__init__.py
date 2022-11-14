@@ -6,7 +6,7 @@ from faker.providers import BaseProvider, ElementsType
 localized = True
 
 
-class EnergySupplier(BaseProvider):
+class EnergySupplierProvider(BaseProvider):
 
 	distributor: ElementsType[str] = ()
 	country_code = "PT"

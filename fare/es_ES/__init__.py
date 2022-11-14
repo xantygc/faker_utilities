@@ -4,7 +4,7 @@ from faker.providers import BaseProvider
 from random import choice
 
 
-class Fare(BaseProvider):
+class FareProvider(BaseProvider):
     fare_list = {
         'power':
             [

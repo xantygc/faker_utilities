@@ -1,6 +1,6 @@
 import unittest
-from energy_supplier.es_ES import PowerEnergySupplier as PowerEnergySupplierES
-from energy_supplier.es_ES import GasEnergySupplier as GasEnergySupplierES
+from energy_supplier.es_ES import PowerEnergySupplierProvider as PowerEnergySupplierES
+from energy_supplier.es_ES import GasEnergySupplierProvider as GasEnergySupplierES
 from faker import Faker
 
 
